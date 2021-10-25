@@ -38,7 +38,6 @@
 #projects {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  -ms-grid-columns:1fr 1fr 1f;
   padding: 50px;
   gap: 50px;
 }
@@ -84,5 +83,4 @@ img {
     grid-template-columns: 1fr;
     -ms-grid-columns: 1fr;
   }
-  
 }
