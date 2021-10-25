@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
 * {
   margin: 0;
@@ -38,6 +38,7 @@
 #projects {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-columns:1fr 1fr 1f;
   padding: 50px;
   gap: 50px;
 }
@@ -81,5 +82,7 @@ img {
 @media only screen and (max-width: 800px) {
   #projects {
     grid-template-columns: 1fr;
+    -ms-grid-columns: 1fr;
   }
+  
 }
